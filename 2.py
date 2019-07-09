@@ -3,7 +3,7 @@ def palindrome(string):
     # Variable to store edition count
     editions = 0
     
-    # Making shure capitalized letters won't mess results up.
+    # Making shure capitalized letters won't mess results up
     string = string.lower()
 
     # Splitting string in half or integer part of a odd string and comparing equidistant terms
